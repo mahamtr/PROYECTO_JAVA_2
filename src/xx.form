@@ -50,19 +50,7 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="x1" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="x3" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="2" attributes="0">
-                              <Component id="x4" alignment="2" min="-2" max="-2" attributes="0"/>
-                              <Component id="x2" alignment="2" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
@@ -89,6 +77,18 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="salir" min="-2" pref="150" max="-2" attributes="0"/>
                       </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="x1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="x3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="2" attributes="0">
+                              <Component id="x4" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="x2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
                   </Group>
                   <EmptySpace pref="1197" max="32767" attributes="0"/>
               </Group>
@@ -97,7 +97,7 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="2" attributes="0">
                       <Component id="x1" alignment="2" min="-2" max="-2" attributes="0"/>
                       <Component id="x2" alignment="2" min="-2" max="-2" attributes="0"/>
@@ -108,7 +108,7 @@
                       <Component id="x4" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
@@ -136,7 +136,7 @@
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace pref="1016" max="32767" attributes="0"/>
+                  <EmptySpace pref="1753" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>

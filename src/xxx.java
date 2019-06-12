@@ -32,8 +32,6 @@ public class xxx extends javax.swing.JFrame {
       this.setSize(1300,900);
      this.setLocationRelativeTo(null);
         this.setNew();
-       this.continuar();
-       
         timer = new Timer (1000, new ActionListener () 
 { 
     public void actionPerformed(ActionEvent e) 
@@ -130,6 +128,7 @@ public class xxx extends javax.swing.JFrame {
     } 
 }); 
           timer.start();
+                 this.continuar();
     }
 
     /**
@@ -597,7 +596,7 @@ x9.setBorderPainted(false);
             x7.setEnabled(false);
             x8.setEnabled(false);
             x9.setEnabled(false);
-           // t.stop();
+            timer.stop();
                         
         }
     }

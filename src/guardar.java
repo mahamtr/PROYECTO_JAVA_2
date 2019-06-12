@@ -261,6 +261,7 @@ public class guardar extends javax.swing.JFrame {
    writer.write(String.valueOf(isD()));
    writer.append("\n");
    writer.write(String.valueOf(getS()));
+   writer.close();
   dispose();
    mainm menu = new mainm();
         menu.setVisible(true);
@@ -289,6 +290,7 @@ public class guardar extends javax.swing.JFrame {
    writer.write(String.valueOf(isC()));
    writer.append("\n");
    writer.write(String.valueOf(getS()));
+   writer.close();
   dispose();
    mainm menu = new mainm();
         menu.setVisible(true);
@@ -314,6 +316,7 @@ public class guardar extends javax.swing.JFrame {
    writer.write(String.valueOf(isB()));
    writer.append("\n");
    writer.write(String.valueOf(getS()));
+   writer.close();
   dispose();
    mainm menu = new mainm();
         menu.setVisible(true);

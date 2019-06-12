@@ -20,11 +20,10 @@ public class xxxx extends javax.swing.JFrame {
         this.R = R;
         this.S = S;
         this.T = T;
-          this.setShape(new RoundRectangle2D.Double(10, 10,900, 700, 30, 30));
-      this.setSize(1000,800);
+          this.setShape(new RoundRectangle2D.Double(10, 10,950, 700, 30, 30));
+      this.setSize(1050,800);
      this.setLocationRelativeTo(null);
      this.setNew();
-     this.continuar();
      
       timer = new Timer (1000, new ActionListener () 
 { 
@@ -154,6 +153,7 @@ if (isQ() == false && isR() == false && isS() == false && isT() == false) {
     } 
 }); 
           timer.start();
+               this.continuar();
     }
 
     @SuppressWarnings("unchecked")
@@ -613,7 +613,6 @@ if (isQ() == false && isR() == false && isS() == false && isT() == false) {
 
     public void continuar(){
                                 tiempo.setText(String.valueOf(getSegundos()));
-
          puntuaje.setText(String.valueOf(getPuntuacion()));
        intento.setText(String.valueOf(getIntentos()));
 
@@ -663,7 +662,7 @@ if (isQ() == false && isR() == false && isS() == false && isT() == false) {
                         }
                         
                         if (isQ() == false && isR() == false && isS() == false && isT() == false) {
-            win.setVisible(true);
+                            win.setVisible(true);
             x1.setEnabled(false);
             x2.setEnabled(false);
             x3.setEnabled(false);
@@ -680,7 +679,7 @@ if (isQ() == false && isR() == false && isS() == false && isT() == false) {
             x14.setEnabled(false);
             x15.setEnabled(false);
             x16.setEnabled(false);
-           // t.stop();
+            timer.stop();
                         
         }
     }
@@ -850,6 +849,7 @@ x16.setBorderPainted(false);
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                System.out.println("4444");
             }
         });
     }

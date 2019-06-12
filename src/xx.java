@@ -2,11 +2,6 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.geom.RoundRectangle2D;
-import java.util.concurrent.TimeUnit;
-import java.util.logging.Level;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.Action;
 import javax.swing.ImageIcon;
 import javax.swing.Timer;
 
@@ -26,11 +21,10 @@ public class xx extends javax.swing.JFrame {
         this.e = e;
         this.F = F;
         initComponents();
-        this.setShape(new RoundRectangle2D.Double(10, 10, 700, 720, 30, 30));
-        this.setSize(800,820);
+        this.setShape(new RoundRectangle2D.Double(10, 10, 800, 720, 30, 30));
+        this.setSize(900,820);
         this.setLocationRelativeTo(null);
        this.setNew();
-      this.continuar();
      
      
    t = new Timer (1000, new ActionListener () 
@@ -98,6 +92,7 @@ public class xx extends javax.swing.JFrame {
     } 
 }); 
           t.start();
+                this.continuar();
     }
     
           
@@ -199,15 +194,6 @@ public class xx extends javax.swing.JFrame {
             .addGroup(FONDOLayout.createSequentialGroup()
                 .addGroup(FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(FONDOLayout.createSequentialGroup()
-                        .addGap(50, 50, 50)
-                        .addGroup(FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(x1)
-                            .addComponent(x3))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                            .addComponent(x4)
-                            .addComponent(x2)))
-                    .addGroup(FONDOLayout.createSequentialGroup()
                         .addGroup(FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(FONDOLayout.createSequentialGroup()
                                 .addGap(39, 39, 39)
@@ -227,13 +213,22 @@ public class xx extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(abandonar)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(salir, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(salir, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(FONDOLayout.createSequentialGroup()
+                        .addGap(99, 99, 99)
+                        .addGroup(FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(x1)
+                            .addComponent(x3))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
+                            .addComponent(x4)
+                            .addComponent(x2))))
                 .addContainerGap(1197, Short.MAX_VALUE))
         );
         FONDOLayout.setVerticalGroup(
             FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(FONDOLayout.createSequentialGroup()
-                .addGap(25, 25, 25)
+                .addContainerGap()
                 .addGroup(FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
                     .addComponent(x1)
                     .addComponent(x2))
@@ -262,7 +257,7 @@ public class xx extends javax.swing.JFrame {
                         .addGroup(FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(tiempo, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(puntuajedisplay1))))
-                .addContainerGap(1016, Short.MAX_VALUE))
+                .addContainerGap(1753, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -362,7 +357,7 @@ public class xx extends javax.swing.JFrame {
             x2.setEnabled(false);
             x3.setEnabled(false);
             x4.setEnabled(false);
-           // t.stop();
+           t.stop();
                         
         }
     }
